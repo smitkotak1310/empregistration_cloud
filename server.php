@@ -1,5 +1,5 @@
 <?php
-$db=mysqli_connect('empinfo.c2cuq5jisxyo.us-east-1.rds.amazonaws.com','root',"","emp_details");
+$db=mysqli_connect('empinfo.c2cuq5jisxyo.us-east-1.rds.amazonaws.com','root',"admin123","emp_details");
 if(isset($_POST['reg_emp']))
 {
 	$fname = mysqli_real_escape_string($db, $_POST['emp_fname']);
